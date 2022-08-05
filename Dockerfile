@@ -10,3 +10,4 @@ RUN unzip photogenic.zip
 RUN cp -rvf photogenic/* .
 CMD [&quot;/usr/sbin/httpd&quot;, &quot;-D&quot;,&quot;FOREGROUND&quot;]
 EXPOSE 80
+//this is venkey
