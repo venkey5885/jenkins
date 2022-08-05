@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER devops@gmail.com
+MAINTAINER venkateshponaganti1@gmail.com
 RUN yum -y install httpd \
 zip \
 unzip
@@ -10,4 +10,4 @@ RUN unzip photogenic.zip
 RUN cp -rvf photogenic/* .
 CMD [&quot;/usr/sbin/httpd&quot;, &quot;-D&quot;,&quot;FOREGROUND&quot;]
 EXPOSE 80
-//this is venkey
+//this is venkey change
